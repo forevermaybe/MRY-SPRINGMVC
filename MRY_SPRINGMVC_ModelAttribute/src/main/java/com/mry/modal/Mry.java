@@ -1,10 +1,18 @@
 package com.mry.modal;
 
+import org.springframework.stereotype.Component;
+
 public class Mry {
 
 	private String name;
 	private String age;
 	private String address;
+	private School school;
+
+	
+	public Mry() {
+		System.out.println("调用构造函数");
+	}
 
 	public String getName() {
 		return name;
@@ -28,6 +36,19 @@ public class Mry {
 
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	public School getSchool() {
+		return school;
+	}
+
+	public void setSchool(School school) {
+		this.school = school;
+	}
+
+	@Override
+	public String toString() {
+		return "Mry [name=" + name + ", age=" + age + ", address=" + address + "]";
 	}
 
 }

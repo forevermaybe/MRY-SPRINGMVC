@@ -8,14 +8,14 @@
 </head>
 <body>
 <form action="/mry/test">
-<span>test</span>
+<span>@RequestParam</span>
 <input type="text" name="name"/>
 <input type="text" name="age"/>
 <input type="submit" value="提交">
 </form>
 
 <form action="/mry/test2/4">
-<span>test2</span>
+<span>@PathVariable</span>
 <input type="submit" value="提交">
 </form>
 
