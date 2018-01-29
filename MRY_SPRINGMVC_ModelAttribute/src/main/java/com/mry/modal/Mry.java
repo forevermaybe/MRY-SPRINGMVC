@@ -1,7 +1,5 @@
 package com.mry.modal;
 
-import org.springframework.stereotype.Component;
-
 public class Mry {
 
 	private String name;
