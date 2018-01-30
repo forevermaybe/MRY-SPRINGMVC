@@ -8,8 +8,8 @@
 </head>
 <body>
 
-<form action="/mry/get">
-<input  type="text" name="name"/>
+<form action="/mry/get3">
+<input type="text" name="date" value="2018-01-30"/>
 <input type="submit" value="提交">
 </form>
 

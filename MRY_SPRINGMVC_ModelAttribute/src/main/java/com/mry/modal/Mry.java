@@ -7,9 +7,12 @@ public class Mry {
 	private String address;
 	private School school;
 
-	
 	public Mry() {
 		System.out.println("调用构造函数");
+	}
+
+	public Mry(String name) {
+		this.name = name;
 	}
 
 	public String getName() {
