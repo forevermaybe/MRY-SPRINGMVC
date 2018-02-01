@@ -15,8 +15,8 @@ public class ExceptionCtrl {
 	public void handleMyException(Myexception ex) {
 	}
 
-	@ExceptionHandler()
+	/*@ExceptionHandler()
 	public String handleException(Exception ex) {
 		return "gobalexception";
-	}
+	}*/
 }
