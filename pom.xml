@@ -71,5 +71,9 @@
     <module>SPRINGMVC_EXCEPTION</module>
     
     <module>MRY_SPRINGMVC_ModelAttribute</module>
+    
+    
+    
+    <module>BeanPostProcessor</module>
   </modules>
 </project>
