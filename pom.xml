@@ -75,5 +75,6 @@
     
     
     <module>BeanPostProcessor</module>
+    <module>Async</module>
   </modules>
 </project>
